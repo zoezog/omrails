@@ -32,6 +32,7 @@ gem 'jbuilder', '~> 2.5'
 
 # gem to install BootStrap 4
 gem 'bootstrap', '~> 4.0.0.alpha4'	
+gem 'devise'
 
 
 group :development, :test do
