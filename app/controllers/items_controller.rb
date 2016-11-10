@@ -6,7 +6,7 @@ class ItemsController < ApplicationController
     @items = Item.all
   end
 
-  # GET /items/1
+  # GET /items/1 
   def show
     @item = Item.find(params[:id])
   end
